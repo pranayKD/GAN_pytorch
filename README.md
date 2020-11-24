@@ -12,6 +12,10 @@
 
 The network architecture, and choice of activations and regularization units is inspired from different implementations available on web
 
+For generator, leaky relu activations for all layers except the final output layer is used. Output layer has Tanh activation. 
+
+For discriminator, leaky rely activations and dropout layer is used for all the layers except output layer. Output layer uses Sigmoid activation. 
+
 --- 
 
 ## Training Data
