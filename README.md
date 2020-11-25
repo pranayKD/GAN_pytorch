@@ -73,10 +73,13 @@ Are Generative networks really learning the underlined data distribution and sto
 
 Often, a more reliable method is to walk in latent space and check if the transitions are smooth. 
 
+Transition from 1 to 7 - 
 
 <p float="left">
   <img src="Images/inter_1_7.png"  /> 
 </p>
+
+Transition from 5 to 4 - 
 
 <p float="left">
   <img src="Images/inter_5_4.png"  /> 
