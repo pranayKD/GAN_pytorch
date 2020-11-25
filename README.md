@@ -67,6 +67,21 @@ GAN consists of Generator and Discriminator models. Both these models are pitted
 
 ---
 
+## Walking in latent space
+
+Are Generative networks really learning the underlined data distribution and storing it in the latent space in case of GAN - is one of the major questions. To show that the GAN network is not simply memorizing the training data distribution, sometimes the L1 distanced k nearest neighbors are extracted from the training data for corresponding generated image, and based on the difference, it is concluded that generation is not because of the network memorizing training data. But it is not a reliable matrix. 
+
+Often, a more reliable method is to walk in latent space and check if the transitions are smooth. 
+
+
+<p float="left">
+  <img src="Images/inter_1_7.png"  /> 
+</p>
+
+<p float="left">
+  <img src="Images/inter_5_4.png"  /> 
+</p>
+
 
 
 ----
