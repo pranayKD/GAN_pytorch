@@ -26,7 +26,7 @@ MNIST train Dataset is used for training.
 
 ## Network Details
 
-GAN - Generative adversarial networks are implicit density type of generative models. The focus here is not to learn the data distribution, but to sample from the data distribution directly. 
+GAN - Generative adversarial networks are implicit density type of generative models. The focus here is not to explicitly model the data distribution, but to sample from the data distribution directly. 
 
 Few examples of explicit density models are [MADE](https://github.com/pranayKD/MADE_pytorch) and [pixelCNN](https://github.com/pranayKD/basic_pixel_cnn_pytorch)
 
